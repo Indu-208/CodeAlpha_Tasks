@@ -3,7 +3,7 @@ import java.awt.*;
 import java.awt.event.*;
 import java.util.ArrayList;
 
-public class Student extends JFrame implements ActionListener {
+public class StudentGradeTracker extends JFrame implements ActionListener {
 
     JTextField nameField, marksField;
     JTextArea outputArea;
@@ -12,7 +12,7 @@ public class Student extends JFrame implements ActionListener {
     ArrayList<String> names = new ArrayList<>();
     ArrayList<Double> marks = new ArrayList<>();
 
-    Student() {
+    StudentGradeTracker() {
 
         setTitle("Student Grade Tracker");
         setSize(600, 550);
@@ -147,6 +147,6 @@ public class Student extends JFrame implements ActionListener {
     }
 
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> new Student());
+        SwingUtilities.invokeLater(() -> new StudentGradeTracker());
     }
 }
