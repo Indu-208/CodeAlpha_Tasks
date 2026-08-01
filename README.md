@@ -35,7 +35,7 @@ java Student
 ```
 
 ## 📸 Output
-(Add a screenshot of your application here.)
+StudentGradeTracker.png
 
 ## 👩‍💻 Author
 Kondri Indumathi
